@@ -129,7 +129,7 @@ foreach my $mirror (@ARGV) {
 		push @mirrors, "ftp://ftp.digex.net/pub/gnu/$1";
 	} elsif ($mirror =~ /^\@KERNEL\/(.+)$/) {
 		push @mirrors, "ftp://ftp.all.kernel.org/pub/$1";
-		push @mirrors, "http://ftp.all.kernel.org/pub/$1";
+		push @mirrors, "http://kernel.org/pub/$1";
 		push @mirrors, "ftp://ftp.de.kernel.org/pub/$1";
 		push @mirrors, "http://ftp.de.kernel.org/pub/$1";
 		push @mirrors, "ftp://ftp.fr.kernel.org/pub/$1";
