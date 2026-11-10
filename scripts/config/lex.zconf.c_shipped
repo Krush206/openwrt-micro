@@ -932,6 +932,8 @@ extern int zconflex (void);
 #define YY_RULE_SETUP \
 	YY_USER_ACTION
 
+extern struct kconf_id * kconf_id_lookup (register const char *str, register unsigned int len);
+
 /** The main scanner function which does all the work.
  */
 YY_DECL
