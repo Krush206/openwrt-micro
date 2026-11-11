@@ -11,7 +11,6 @@ ifneq ($(DUMP),1)
   all: compile
 endif
 
-export QUILT=0
 STAMP_PREPARED:=$(LINUX_DIR)/.prepared
 STAMP_CONFIGURED:=$(LINUX_DIR)/.configured
 include $(INCLUDE_DIR)/download.mk
