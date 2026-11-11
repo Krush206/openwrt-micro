@@ -1,0 +1,2 @@
+#! /bin/sh
+exec /home/agb/openwrt/brcm-2.4/staging_dir/host/bin/bison -y "$@"
